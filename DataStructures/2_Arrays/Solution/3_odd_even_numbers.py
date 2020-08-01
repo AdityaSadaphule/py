@@ -1,9 +1,3 @@
-max = int(input("Enter max number: "))
-
-odd_numbers = []
-
-for i in range(max):
-    if i%2 == 1:
-        odd_numbers.append(i)
-
-print("Odd numbers: ",odd_numbers)
+n = int(input("enter the max number"))
+num = list(range(1, n+1, 2))
+print(num)
